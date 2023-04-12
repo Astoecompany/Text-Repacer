@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Stylish Text Replacer</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Stylish Text Replacer</h1>
+      <div class="input-container">
+        <label for="input-text">Enter your text:</label>
+        <textarea id="input-text"></textarea>
+      </div>
+      <div class="replace-container">
+        <div class="replace-input">
+          <label for="replace-text">Replace this text:</label>
+          <input type="text" id="replace-text">
+        </div>
+        <div class="with-input">
+          <label for="with-text">With this text:</label>
+          <input type="text" id="with-text">
+        </div>
+        <button onclick="replaceText()">Replace</button>
+      </div>
+      <div class="output-container">
+        <label for="output-text">Result:</label>
+        <textarea id="output-text"></textarea>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
